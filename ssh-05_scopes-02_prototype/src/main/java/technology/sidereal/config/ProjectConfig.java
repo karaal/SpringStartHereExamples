@@ -8,7 +8,11 @@ import org.springframework.context.annotation.Scope;
 import technology.sidereal.repository.CommentRepository;
 
 @Configuration
-@ComponentScan(basePackages = {"technology.sidereal.repository", "technology.sidereal.service"})
+@ComponentScan(basePackages = {
+        "technology.sidereal.repository",
+        "technology.sidereal.service",
+        "technology.sidereal.processor"
+})
 public class ProjectConfig {
 
     @Bean
