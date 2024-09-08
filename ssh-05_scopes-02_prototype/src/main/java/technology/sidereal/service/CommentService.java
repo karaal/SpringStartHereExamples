@@ -1,12 +1,9 @@
 package technology.sidereal.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import technology.sidereal.processor.CommentProcessor;
-import technology.sidereal.repository.CommentRepository;
 import technology.sidereal.model.Comment;
 
 @Service
